@@ -2,8 +2,8 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://localhost:1313/"
-title = "Jane - A super concise theme for Hugo"
+baseURL = "https://csjobsinabroad.github.io"
+title = "CS Jobs In Abroad"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -48,6 +48,11 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 20
   identifier = "job-site"
   url = "/job-site/"
+[[menu.main]]
+  name = "Living"
+  weight = 20
+  identifier = "living"
+  url = "/living/"
 [[menu.main]]
   name = "Tags"
   weight = 30
