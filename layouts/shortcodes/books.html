@@ -1,0 +1,20 @@
+
+<h2>Reference Books</h2>
+<table>
+{{ range .Site.Data.referenceBooks }}
+	<tr>
+	<td>{{ .name }}</td>
+	<td><a href="{{ if (isset . "linkText") }} {{ .linkText }} {{else}} {{.link}}{{end}} ">{{ .link }}</a></td>
+	</tr>
+{{ end }}
+</table>
+
+<h2>Technical Blogs</h2>
+<table>
+{{ range .Site.Data.techBlogs }}
+	<tr>
+	<td>{{ .name }}</td>
+	<td><a href="{{ if (isset . "linkText") }} {{ .linkText }} {{else}} {{.link}}{{end}} ">{{ .link }}</a></td>
+	</tr>
+{{ end }}
+</table>

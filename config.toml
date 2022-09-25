@@ -35,10 +35,10 @@ defaultContentLanguage = "en"           # Default language to use
   url = "/"
 
 [[menu.main]]             # config your menu
-  name = "Reference Books"
+  name = "Reference"
   weight = 10
   identifier = "reference"
-  url = "/reference"
+  url = "/reference/materials"
 
 [[menu.main]]
   name = "Career Path"
